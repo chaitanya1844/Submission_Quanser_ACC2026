@@ -256,7 +256,7 @@ class LaneDetector(Node):
 
         curvature = 2 * local_y / (self.lookahead ** 2)
 
-        steering = curvature * 0.7
+        steering = curvature * 0.9
         steering = max(min(steering, 0.25), -0.25)
 
         throttle = self.base_speed - 0.1 * abs(steering)
