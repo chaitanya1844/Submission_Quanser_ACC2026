@@ -126,7 +126,7 @@ class ObjectDetector(Node):
             if labelName == 'car' and labelConf > 0.9 and objectDist < 0.45 :
                 self.get_logger().info("Car found!")
 
-            elif labelName == "stop sign" and labelConf > 0.9 and objectDist < 0.20:
+            elif labelName == "stop sign" and labelConf > 0.9 and objectDist < 0.30:
             # elif labelName == "stop sign" and labelConf > 0.9:
 
                 self.get_logger().info("Stop Sign Detected!")

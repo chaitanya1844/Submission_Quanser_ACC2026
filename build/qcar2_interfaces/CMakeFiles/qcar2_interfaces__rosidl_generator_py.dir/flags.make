@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DROS_PACKAGE_NAME=\"qcar2_interfaces\" -Dqcar2_interfaces__rosidl_generator_py_EXPORTS
 
-C_INCLUDES = -I/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_interfaces/rosidl_generator_c -I/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_interfaces/rosidl_generator_py -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /usr/lib/python3/dist-packages/numpy/core/include -isystem /usr/include/python3.12
+C_INCLUDES = -I/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_interfaces/rosidl_generator_c -I/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_interfaces/rosidl_generator_py -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /home/chaitanya/.local/lib/python3.12/site-packages/numpy/core/include -isystem /usr/include/python3.12
 
 C_FLAGS = -fPIC -Wall -Wextra
 
