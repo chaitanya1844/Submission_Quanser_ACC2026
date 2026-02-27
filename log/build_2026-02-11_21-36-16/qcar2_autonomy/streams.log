@@ -1,0 +1,49 @@
+[0.925s] Invoking command in '/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy': AMENT_PREFIX_PATH=/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy/prefix_override:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/python3.12/site-packages:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/chaitanya/Quanser/libraries/python /usr/bin/python3 setup.py develop --editable --build-directory /home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy/build --no-deps install_data
+[1.216s] running develop
+[1.217s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.217s] !!
+[1.217s] 
+[1.217s]         ********************************************************************************
+[1.217s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.217s]         Instead, use pypa/build, pypa/installer or other
+[1.217s]         standards-based tools.
+[1.217s] 
+[1.217s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.217s]         ********************************************************************************
+[1.218s] 
+[1.218s] !!
+[1.218s]   easy_install.initialize_options(self)
+[1.255s] /usr/lib/python3/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.255s] !!
+[1.255s] 
+[1.255s]         ********************************************************************************
+[1.255s]         Please avoid running ``setup.py`` directly.
+[1.255s]         Instead, use pypa/build, pypa/installer or other
+[1.255s]         standards-based tools.
+[1.255s] 
+[1.256s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.256s]         ********************************************************************************
+[1.256s] 
+[1.256s] !!
+[1.256s]   self.initialize_options()
+[1.381s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[1.381s]   self.local_index = Environment(self.shadow_path + sys.path)
+[1.423s] running egg_info
+[1.444s] writing qcar2_autonomy.egg-info/PKG-INFO
+[1.446s] writing dependency_links to qcar2_autonomy.egg-info/dependency_links.txt
+[1.446s] writing entry points to qcar2_autonomy.egg-info/entry_points.txt
+[1.446s] writing requirements to qcar2_autonomy.egg-info/requires.txt
+[1.446s] writing top-level names to qcar2_autonomy.egg-info/top_level.txt
+[1.494s] reading manifest file 'qcar2_autonomy.egg-info/SOURCES.txt'
+[1.495s] writing manifest file 'qcar2_autonomy.egg-info/SOURCES.txt'
+[1.529s] running build_ext
+[1.529s] Creating /home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/python3.12/site-packages/qcar2-autonomy.egg-link (link to .)
+[1.530s] Installing lane_detector script to /home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/qcar2_autonomy
+[1.531s] Installing path_follower script to /home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/qcar2_autonomy
+[1.531s] Installing traffic_system_detector script to /home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/qcar2_autonomy
+[1.531s] Installing trip_planner script to /home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/qcar2_autonomy
+[1.532s] Installing yolo_detector script to /home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/qcar2_autonomy
+[1.532s] 
+[1.532s] Installed /home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy
+[1.532s] running install_data
+[1.628s] Invoked command in '/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy' returned '0': AMENT_PREFIX_PATH=/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy/prefix_override:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/python3.12/site-packages:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/chaitanya/Quanser/libraries/python /usr/bin/python3 setup.py develop --editable --build-directory /home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy/build --no-deps install_data

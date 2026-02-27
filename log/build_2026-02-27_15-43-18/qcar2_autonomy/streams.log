@@ -1,0 +1,49 @@
+[1.652s] Invoking command in '/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy': CMAKE_PREFIX_PATH=/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy/prefix_override:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/python3.12/site-packages:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/lib/python3.12/site-packages:/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/chaitanya/Quanser/libraries/python:/home/chaitanya/Documents/ACC_Development/backup/Quanser_Academic_Resources/0_libraries/python /usr/bin/python3 setup.py develop --editable --build-directory /home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy/build --no-deps install_data
+[2.081s] running develop
+[2.081s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.081s] !!
+[2.081s] 
+[2.081s]         ********************************************************************************
+[2.081s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.081s]         Instead, use pypa/build, pypa/installer or other
+[2.081s]         standards-based tools.
+[2.081s] 
+[2.081s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.082s]         ********************************************************************************
+[2.082s] 
+[2.082s] !!
+[2.082s]   easy_install.initialize_options(self)
+[2.131s] /usr/lib/python3/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.131s] !!
+[2.131s] 
+[2.131s]         ********************************************************************************
+[2.131s]         Please avoid running ``setup.py`` directly.
+[2.131s]         Instead, use pypa/build, pypa/installer or other
+[2.131s]         standards-based tools.
+[2.131s] 
+[2.131s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.131s]         ********************************************************************************
+[2.131s] 
+[2.132s] !!
+[2.132s]   self.initialize_options()
+[2.296s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[2.296s]   self.local_index = Environment(self.shadow_path + sys.path)
+[2.343s] running egg_info
+[2.374s] writing qcar2_autonomy.egg-info/PKG-INFO
+[2.375s] writing dependency_links to qcar2_autonomy.egg-info/dependency_links.txt
+[2.375s] writing entry points to qcar2_autonomy.egg-info/entry_points.txt
+[2.376s] writing requirements to qcar2_autonomy.egg-info/requires.txt
+[2.376s] writing top-level names to qcar2_autonomy.egg-info/top_level.txt
+[2.436s] reading manifest file 'qcar2_autonomy.egg-info/SOURCES.txt'
+[2.437s] writing manifest file 'qcar2_autonomy.egg-info/SOURCES.txt'
+[2.473s] running build_ext
+[2.473s] Creating /home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/python3.12/site-packages/qcar2-autonomy.egg-link (link to .)
+[2.475s] Installing lane_detector script to /home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/qcar2_autonomy
+[2.475s] Installing path_follower script to /home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/qcar2_autonomy
+[2.475s] Installing traffic_system_detector script to /home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/qcar2_autonomy
+[2.476s] Installing trip_planner script to /home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/qcar2_autonomy
+[2.476s] Installing yolo_detector script to /home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/qcar2_autonomy
+[2.477s] 
+[2.477s] Installed /home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy
+[2.477s] running install_data
+[2.616s] Invoked command in '/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy' returned '0': CMAKE_PREFIX_PATH=/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy/prefix_override:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/python3.12/site-packages:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/lib/python3.12/site-packages:/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/chaitanya/Quanser/libraries/python:/home/chaitanya/Documents/ACC_Development/backup/Quanser_Academic_Resources/0_libraries/python /usr/bin/python3 setup.py develop --editable --build-directory /home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy/build --no-deps install_data

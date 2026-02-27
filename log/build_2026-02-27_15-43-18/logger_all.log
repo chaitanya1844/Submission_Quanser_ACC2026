@@ -1,0 +1,275 @@
+[1.847s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.848s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x701932a68e60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x701932ca2b10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x701932ca2b10>>, mixin_verb=('build',))
+[1.925s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.925s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.925s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.925s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.925s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.925s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.925s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/chaitanya/Documents/ACC_Development/Development/ros2'
+[1.925s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.926s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.926s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.926s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.926s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.926s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.926s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.926s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.926s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_autonomy) by extensions ['ignore', 'ignore_ament_install']
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_autonomy) by extension 'ignore'
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_autonomy) by extension 'ignore_ament_install'
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_autonomy) by extensions ['colcon_pkg']
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_autonomy) by extension 'colcon_pkg'
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_autonomy) by extensions ['colcon_meta']
+[1.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_autonomy) by extension 'colcon_meta'
+[1.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_autonomy) by extensions ['ros']
+[1.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_autonomy) by extension 'ros'
+[1.958s] DEBUG:colcon.colcon_core.package_identification:Package 'src/qcar2_autonomy' with type 'ros.ament_python' and name 'qcar2_autonomy'
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_interfaces) by extension 'ignore'
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_interfaces) by extension 'ignore_ament_install'
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_interfaces) by extensions ['colcon_pkg']
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_interfaces) by extension 'colcon_pkg'
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_interfaces) by extensions ['colcon_meta']
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_interfaces) by extension 'colcon_meta'
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_interfaces) by extensions ['ros']
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_interfaces) by extension 'ros'
+[1.959s] DEBUG:colcon.colcon_core.package_identification:Package 'src/qcar2_interfaces' with type 'ros.ament_cmake' and name 'qcar2_interfaces'
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_nodes) by extensions ['ignore', 'ignore_ament_install']
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_nodes) by extension 'ignore'
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_nodes) by extension 'ignore_ament_install'
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_nodes) by extensions ['colcon_pkg']
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_nodes) by extension 'colcon_pkg'
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_nodes) by extensions ['colcon_meta']
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_nodes) by extension 'colcon_meta'
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_nodes) by extensions ['ros']
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_nodes) by extension 'ros'
+[1.960s] DEBUG:colcon.colcon_core.package_identification:Package 'src/qcar2_nodes' with type 'ros.ament_cmake' and name 'qcar2_nodes'
+[1.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.171s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/chaitanya/Documents/ACC_Development/Development/ros2/install
+[2.197s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 383 installed packages in /opt/ros/jazzy
+[2.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.295s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'cmake_args' from command line to 'None'
+[2.296s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'cmake_target' from command line to 'None'
+[2.296s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.296s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[2.296s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[2.296s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[2.296s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[2.296s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[2.296s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.296s] DEBUG:colcon.colcon_core.verb:Building package 'qcar2_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces', 'merge_install': False, 'path': '/home/chaitanya/Documents/ACC_Development/Development/ros2/src/qcar2_interfaces', 'symlink_install': True, 'test_result_base': None}
+[2.319s] Level 5:colcon.colcon_core.verb:set package 'qcar2_autonomy' build argument 'cmake_args' from command line to 'None'
+[2.319s] Level 5:colcon.colcon_core.verb:set package 'qcar2_autonomy' build argument 'cmake_target' from command line to 'None'
+[2.319s] Level 5:colcon.colcon_core.verb:set package 'qcar2_autonomy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.319s] Level 5:colcon.colcon_core.verb:set package 'qcar2_autonomy' build argument 'cmake_clean_cache' from command line to 'False'
+[2.319s] Level 5:colcon.colcon_core.verb:set package 'qcar2_autonomy' build argument 'cmake_clean_first' from command line to 'False'
+[2.319s] Level 5:colcon.colcon_core.verb:set package 'qcar2_autonomy' build argument 'cmake_force_configure' from command line to 'False'
+[2.319s] Level 5:colcon.colcon_core.verb:set package 'qcar2_autonomy' build argument 'ament_cmake_args' from command line to 'None'
+[2.319s] Level 5:colcon.colcon_core.verb:set package 'qcar2_autonomy' build argument 'catkin_cmake_args' from command line to 'None'
+[2.319s] Level 5:colcon.colcon_core.verb:set package 'qcar2_autonomy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.319s] DEBUG:colcon.colcon_core.verb:Building package 'qcar2_autonomy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy', 'merge_install': False, 'path': '/home/chaitanya/Documents/ACC_Development/Development/ros2/src/qcar2_autonomy', 'symlink_install': True, 'test_result_base': None}
+[2.342s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'cmake_args' from command line to 'None'
+[2.342s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'cmake_target' from command line to 'None'
+[2.342s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.342s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'cmake_clean_cache' from command line to 'False'
+[2.342s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'cmake_clean_first' from command line to 'False'
+[2.342s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'cmake_force_configure' from command line to 'False'
+[2.342s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'ament_cmake_args' from command line to 'None'
+[2.342s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'catkin_cmake_args' from command line to 'None'
+[2.342s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.342s] DEBUG:colcon.colcon_core.verb:Building package 'qcar2_nodes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_nodes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes', 'merge_install': False, 'path': '/home/chaitanya/Documents/ACC_Development/Development/ros2/src/qcar2_nodes', 'symlink_install': True, 'test_result_base': None}
+[2.367s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.393s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.393s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chaitanya/Documents/ACC_Development/Development/ros2/src/qcar2_interfaces' with build type 'ament_cmake'
+[2.393s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chaitanya/Documents/ACC_Development/Development/ros2/src/qcar2_interfaces'
+[2.419s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.419s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.419s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_interfaces -- -j16 -l16
+[3.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_interfaces -- -j16 -l16
+[3.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_interfaces
+[3.338s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qcar2_interfaces)
+[3.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_interfaces
+[3.366s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces' for CMake module files
+[3.366s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces' for CMake config files
+[3.367s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_interfaces', 'cmake_prefix_path')
+[3.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/hook/cmake_prefix_path.ps1'
+[3.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/hook/cmake_prefix_path.dsv'
+[3.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/hook/cmake_prefix_path.sh'
+[3.393s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/lib'
+[3.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_interfaces', 'ld_library_path_lib')
+[3.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/hook/ld_library_path_lib.ps1'
+[3.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/hook/ld_library_path_lib.dsv'
+[3.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/hook/ld_library_path_lib.sh'
+[3.419s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/bin'
+[3.419s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/lib/pkgconfig/qcar2_interfaces.pc'
+[3.419s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/lib/python3.12/site-packages'
+[3.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_interfaces', 'pythonpath')
+[3.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/hook/pythonpath.ps1'
+[3.443s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/hook/pythonpath.dsv'
+[3.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/hook/pythonpath.sh'
+[3.444s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/bin'
+[3.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/package.ps1'
+[3.469s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/package.dsv'
+[3.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/package.sh'
+[3.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/package.bash'
+[3.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/package.zsh'
+[3.471s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/colcon-core/packages/qcar2_interfaces)
+[3.612s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qcar2_interfaces)
+[3.639s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces' for CMake module files
+[3.640s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces' for CMake config files
+[3.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_interfaces', 'cmake_prefix_path')
+[3.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/hook/cmake_prefix_path.ps1'
+[3.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/hook/cmake_prefix_path.dsv'
+[3.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/hook/cmake_prefix_path.sh'
+[3.665s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/lib'
+[3.666s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_interfaces', 'ld_library_path_lib')
+[3.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/hook/ld_library_path_lib.ps1'
+[3.694s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/hook/ld_library_path_lib.dsv'
+[3.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/hook/ld_library_path_lib.sh'
+[3.695s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/bin'
+[3.695s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/lib/pkgconfig/qcar2_interfaces.pc'
+[3.696s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/lib/python3.12/site-packages'
+[3.696s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_interfaces', 'pythonpath')
+[3.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/hook/pythonpath.ps1'
+[3.724s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/hook/pythonpath.dsv'
+[3.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/hook/pythonpath.sh'
+[3.725s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/bin'
+[3.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/package.ps1'
+[3.752s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/package.dsv'
+[3.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/package.sh'
+[3.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/package.bash'
+[3.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/qcar2_interfaces/package.zsh'
+[3.754s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/share/colcon-core/packages/qcar2_interfaces)
+[3.754s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chaitanya/Documents/ACC_Development/Development/ros2/src/qcar2_autonomy' with build type 'ament_python'
+[3.754s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_autonomy', 'ament_prefix_path')
+[3.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/share/qcar2_autonomy/hook/ament_prefix_path.ps1'
+[3.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/share/qcar2_autonomy/hook/ament_prefix_path.dsv'
+[3.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/share/qcar2_autonomy/hook/ament_prefix_path.sh'
+[3.810s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.810s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.890s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chaitanya/Documents/ACC_Development/Development/ros2/src/qcar2_nodes' with build type 'ament_cmake'
+[3.890s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chaitanya/Documents/ACC_Development/Development/ros2/src/qcar2_nodes'
+[3.918s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.918s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.357s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chaitanya/Documents/ACC_Development/Development/ros2/src/qcar2_autonomy'
+[4.381s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.382s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_nodes': CMAKE_PREFIX_PATH=/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/lib/python3.12/site-packages:/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/chaitanya/Quanser/libraries/python:/home/chaitanya/Documents/ACC_Development/backup/Quanser_Academic_Resources/0_libraries/python /usr/bin/cmake --build /home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_nodes -- -j16 -l16
+[4.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_nodes' returned '0': CMAKE_PREFIX_PATH=/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/lib/python3.12/site-packages:/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/chaitanya/Quanser/libraries/python:/home/chaitanya/Documents/ACC_Development/backup/Quanser_Academic_Resources/0_libraries/python /usr/bin/cmake --build /home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_nodes -- -j16 -l16
+[4.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_nodes': CMAKE_PREFIX_PATH=/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/lib/python3.12/site-packages:/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/chaitanya/Quanser/libraries/python:/home/chaitanya/Documents/ACC_Development/backup/Quanser_Academic_Resources/0_libraries/python /usr/bin/cmake --install /home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_nodes
+[4.755s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qcar2_nodes)
+[4.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_nodes' returned '0': CMAKE_PREFIX_PATH=/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/lib/python3.12/site-packages:/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/chaitanya/Quanser/libraries/python:/home/chaitanya/Documents/ACC_Development/backup/Quanser_Academic_Resources/0_libraries/python /usr/bin/cmake --install /home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_nodes
+[4.786s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes' for CMake module files
+[4.787s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes' for CMake config files
+[4.788s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_nodes', 'cmake_prefix_path')
+[4.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/share/qcar2_nodes/hook/cmake_prefix_path.ps1'
+[4.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/share/qcar2_nodes/hook/cmake_prefix_path.dsv'
+[4.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/share/qcar2_nodes/hook/cmake_prefix_path.sh'
+[4.820s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/lib'
+[4.820s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/bin'
+[4.820s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/lib/pkgconfig/qcar2_nodes.pc'
+[4.821s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/lib/python3.12/site-packages'
+[4.821s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/bin'
+[4.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/share/qcar2_nodes/package.ps1'
+[4.850s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/share/qcar2_nodes/package.dsv'
+[4.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/share/qcar2_nodes/package.sh'
+[4.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/share/qcar2_nodes/package.bash'
+[4.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/share/qcar2_nodes/package.zsh'
+[4.852s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/share/colcon-core/packages/qcar2_nodes)
+[4.953s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qcar2_nodes)
+[4.982s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes' for CMake module files
+[4.982s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes' for CMake config files
+[4.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_nodes', 'cmake_prefix_path')
+[5.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/share/qcar2_nodes/hook/cmake_prefix_path.ps1'
+[5.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/share/qcar2_nodes/hook/cmake_prefix_path.dsv'
+[5.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/share/qcar2_nodes/hook/cmake_prefix_path.sh'
+[5.016s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/lib'
+[5.016s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/bin'
+[5.016s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/lib/pkgconfig/qcar2_nodes.pc'
+[5.016s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/lib/python3.12/site-packages'
+[5.017s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/bin'
+[5.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/share/qcar2_nodes/package.ps1'
+[5.050s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/share/qcar2_nodes/package.dsv'
+[5.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/share/qcar2_nodes/package.sh'
+[5.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/share/qcar2_nodes/package.bash'
+[5.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/share/qcar2_nodes/package.zsh'
+[5.051s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes/share/colcon-core/packages/qcar2_nodes)
+[5.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy': CMAKE_PREFIX_PATH=/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy/prefix_override:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/python3.12/site-packages:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/lib/python3.12/site-packages:/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/chaitanya/Quanser/libraries/python:/home/chaitanya/Documents/ACC_Development/backup/Quanser_Academic_Resources/0_libraries/python /usr/bin/python3 setup.py develop --editable --build-directory /home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy/build --no-deps install_data
+[6.371s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_autonomy', 'pythonpath_develop')
+[6.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy' returned '0': CMAKE_PREFIX_PATH=/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_nodes:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy/prefix_override:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/python3.12/site-packages:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_interfaces/lib/python3.12/site-packages:/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy:/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/chaitanya/Quanser/libraries/python:/home/chaitanya/Documents/ACC_Development/backup/Quanser_Academic_Resources/0_libraries/python /usr/bin/python3 setup.py develop --editable --build-directory /home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy/build --no-deps install_data
+[6.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy/share/qcar2_autonomy/hook/pythonpath_develop.ps1'
+[6.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy/share/qcar2_autonomy/hook/pythonpath_develop.dsv'
+[6.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaitanya/Documents/ACC_Development/Development/ros2/build/qcar2_autonomy/share/qcar2_autonomy/hook/pythonpath_develop.sh'
+[6.429s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy' for CMake module files
+[6.429s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy' for CMake config files
+[6.430s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib'
+[6.430s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/bin'
+[6.430s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/pkgconfig/qcar2_autonomy.pc'
+[6.431s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/lib/python3.12/site-packages'
+[6.431s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_autonomy', 'pythonpath')
+[6.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/share/qcar2_autonomy/hook/pythonpath.ps1'
+[6.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/share/qcar2_autonomy/hook/pythonpath.dsv'
+[6.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/share/qcar2_autonomy/hook/pythonpath.sh'
+[6.462s] Level 1:colcon.colcon_core.environment:checking '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/bin'
+[6.462s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qcar2_autonomy)
+[6.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/share/qcar2_autonomy/package.ps1'
+[6.493s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/share/qcar2_autonomy/package.dsv'
+[6.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/share/qcar2_autonomy/package.sh'
+[6.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/share/qcar2_autonomy/package.bash'
+[6.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/share/qcar2_autonomy/package.zsh'
+[6.495s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chaitanya/Documents/ACC_Development/Development/ros2/install/qcar2_autonomy/share/colcon-core/packages/qcar2_autonomy)
+[6.496s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.496s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.496s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.497s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.539s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.539s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.539s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.553s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.578s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/local_setup.ps1'
+[6.579s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/_local_setup_util_ps1.py'
+[6.580s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/setup.ps1'
+[6.605s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/local_setup.sh'
+[6.605s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/_local_setup_util_sh.py'
+[6.605s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/setup.sh'
+[6.631s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/local_setup.bash'
+[6.632s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/setup.bash'
+[6.658s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/local_setup.zsh'
+[6.659s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chaitanya/Documents/ACC_Development/Development/ros2/install/setup.zsh'
